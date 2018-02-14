@@ -1,0 +1,210 @@
+.navbar img
+{
+    margin:5px 0px 0px 10px;
+}
+.nav ul li:hover
+{
+    color: white;
+    background-color:#855e42;
+}
+.pic img
+{
+    border-radius:50%; 
+}
+.name h1
+{
+    font-size: 50px;
+    color:white;
+}
+.name h2
+{
+
+    color:white;
+}
+.cont h1
+{
+    font-size: 50px;
+    margin: 50px 0px 30px 0px;
+    color: deepskyblue;
+}
+h3{
+    font-size: 35px;
+}
+p
+{
+    font-size: 20px;
+    margin-top:20px;
+
+}
+#aboutUs button
+{
+    margin: 20px 0px 40px 0px;
+    background-color: deepskyblue;
+    color: white;
+    font-size: 20px;
+}
+
+.progress
+{
+    width: 40%;
+
+    
+}
+#skills
+{
+    background-image: url("img/skill.png");
+}
+.education
+{
+    background-image: url("img/skill.png");
+}
+#home
+{
+    background-image: url("img/imageheader.jpg");
+    margin: 50px 0px 0px 0px ;
+}
+.pic
+{
+    margin-top: 100px;
+}
+.skillList
+{
+    list-style: none;
+    margin: 20px 0px 40px 0px;
+    font-size: 15px;
+    color: white;
+}
+#skills h1
+{
+    font-size: 50px;
+    color: deepskyblue;
+    margin:40px 0px 20px 0px; 
+}
+.edu div i 
+{
+    font-size: 120px;
+    color: deepskyblue;
+    
+}
+.edu
+{
+    
+    box-shadow: 8px 8px 8px deepskyblue ;
+    margin: 10px 40px 50px 50px;
+    
+}
+.edu div p
+{
+    color: white;
+}
+.edu div h4{
+    font-size: 30px;
+    color: white;
+}
+#descrip 
+{
+    margin-top: 5px;
+}
+.social
+{
+margin:40px 0px 50px 0px;
+}
+.socials
+{
+margin:0px 0px 0px 0px;
+}
+#mob
+{
+text-align: center;
+}
+#add
+{
+  
+    text-align: center;
+}
+#contact div p 
+{
+    margin-bottom: 50px;
+    color: white;
+}
+.cont
+{
+    background-color: black;
+
+}
+h2
+{
+    color: deepskyblue;
+}
+.btn
+{
+    margin: 30px 0px 30px 0px;
+    background-color: deepskyblue;
+    color: white;
+    font-size: 20px;
+}
+
+.hire h1
+{
+    font-size: 50px;
+    margin: 50px 0px 30px 0px;
+    color:black;
+}
+.hire
+{
+    background-color:azure;
+  
+    
+}
+.proj
+{
+   margin: 0px 40px 50px 50px;
+    box-shadow: 8px 8px 8px gainsboro;
+    background-color:white;
+}
+.proj div p
+{
+    font-size: 18px; 
+}
+.proj div h4
+{
+    font-size: 30px; 
+}
+.projects h1
+{
+  font-size: 50px;
+    margin: 50px 0px 0px 0px;
+    color: deepskyblue;
+}
+.educations h1
+{
+  font-size: 50px;
+    margin: 50px 0px 50px 0px;
+    color: deepskyblue;
+}
+
+
+.education h1
+{
+     font-size: 50px;
+    margin: 50px 0px 50px 0px;
+    color: deepskyblue;
+}
+.projects h1
+{
+     font-size: 50px;
+    margin: 50px 0px 50px 0px;
+    color: black;
+}
+#about h1
+{
+     font-size: 50px;
+    margin: 50px 0px 0px 0px;
+    color: black;
+}
+
+    
+#about
+{
+background-color: azure;     
+}
