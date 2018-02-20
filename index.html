@@ -54,38 +54,51 @@
     <link rel="stylesheet" href="css/styles.css">
     
       <script src="vendor/js/jquery-1.11.3.min.js"></script>
-      <script src="vendor/js/jquery.cardslider.min.js"> </script>
     <!-- Modernizer, cause some browsers suck -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-<script src="vendor/js/aos.js"></script>
+      <script src="vendor/js/aos.js"></script>
     </head>
   <body>
     <!-- Add your site or application here -->
 
        
    <!---------------------------navbar------------------------------------>
-    
-               <div class="fluid-container" id="heads">
-          <div class="navbar navbar-inverse navbar-fixed-top"  style="background-color:black;">
-           <img src="icons/VD.png" class="pull-left"/>
-                  <a class="navbar-brand" herf="#" >VanchaDeveloper</a>
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myInverseNavbar2" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                  <div class="collapse navbar-collapse pull-right" id="myInverseNavbar2">
-                  <ul class="nav navbar-nav " >
-                  <ul class="nav navbar-nav " >
-                      <li ><a href="#">HOME</a></li> 
-                      <li><a href="#about">ABOUT </a></li> 
-                      <li><a href="#skills">SKILLS</a></li>
-                      <li><a href="#educations">EDUCATION</a></li>
-                      <li><a href="#project">PROJECTS</a></li>
-                       <li><a href="#contact">CONTACT</a></li>
-                      </ul>
-              
-                      </ul>
-              </div>
-      </div>
-      </div>
-      
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <span><img src="icons/VD.png" alt="brand-image" class="navbar-image"/> VanchaDeveloper</span>    
+    </a>
+    </div>
+<style>
+    .navbar-brand{
+        font-size: 1.5em;
+    }
+      .navbar-image{
+          border-radius: 50%;
+          box-shadow: inset 0 2px 5px black;
+    }
+      </style>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#"><i class="fa fa-home"></i> Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="#about"><i class="fa fa-info-circle"></i> ABOUT</a></li> 
+        <li><a href="#skills"><i class="fa fa-briefcase"></i> SKILLS</a></li>
+        <li><a href="#educations"><i class="fa fa-graduation-cap"></i> EDUCATION</a></li>
+        <li><a href="#project"><i class="fa fa-puzzle-piece"></i> PROJECTS</a></li>
+       <li><a href="#contact"><i class="fa fa-address-book"></i> CONTACT</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
       
 <!------------------------------------headerimage----------------------------------------------->
 <div class=" headerImage" id="home">
@@ -120,7 +133,7 @@
               My expertise is in the area of responsive websites.With each line of code , I strive to make the website beautiful and responsive.
                   I also have skills in other field like icon designing , logo designing and layout designing. 
               I am currently a student of Bachelor of Engineering in 'Computer Science and Engineering' in Punjab University Swami Sarvanand Giri Regional Center, Hoshiarpur, Punjab and working in PlatformTechSolution. </p>
-             <a href="#query"> <button class="btn btn-default btn-lg">Hire Me for Beautiful and Responsive Websites</button></a>
+             <a href="#query"> <button class="btn btn-default btn-block">Hire Me for Stunning Websites</button></a>
           </div>
               </div>
           
@@ -271,7 +284,7 @@
           </div>
       </div>
       <!------------------------contact---------------->
-       <div class="container-fluid cont">
+    <!--   <div class="container-fluid cont">
       <div class="heading text-center"><h1>CONTACT</h1></div>
     <div class="container cont">  <div class="row">
           <div class="col-lg-12" id="contact">
@@ -296,6 +309,8 @@
        
           </div>
       </div>
+    
+      </div> -->
     <!-- SCRIPTS -->
       
     
@@ -307,7 +322,5 @@
 <script>
     AOS.init();
       </script>
-    <!-- Google Analytics -->
-      </div>
   </body>
 </html>
